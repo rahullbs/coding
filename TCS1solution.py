@@ -15,3 +15,5 @@ for i in range(len(l)):
 #         print(d)
     p=1
 print(l[max(d, key= lambda x: d[x])])
+# input :l=[-1,60,20,100,78,98]
+#output :78
