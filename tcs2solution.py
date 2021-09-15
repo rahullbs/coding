@@ -15,3 +15,5 @@ def word_count(str):
         if counts[key] > 1:
             l.append(key)
     return l
+# print(word_count("cat cat rat bat bat rat"))
+# output : ['cat', 'rat', 'bat']
